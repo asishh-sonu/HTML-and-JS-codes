@@ -1,0 +1,69 @@
+<html>
+<html lang="en">
+    
+    <h3>LAD Pvt Ltd</h3> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lad Pvt Ltd</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+       <h1 class="main_heading">Personal Details</h1>
+       <p>Required Fileds are followed by *</p>
+      <p> Name: * <input type="text" name="name" placeholder="Enter your Name" required></p>
+      <p>Email: * <input type="email" name="email" id="email" placeholder="Enter your Enmail id" required> 
+
+      </p>
+       <fieldset>
+           <legend>Gender</legend>
+       <p>Male <input type="radio" name="gender" id="male">
+      Female <input type="radio" name="gender" id="female">
+      Other <input type="radio" name="gender" id="other" required>
+    </p>
+    </fieldset>
+    <p>Contact: * <input type="number" name="number" id="number" placeholder="Enter your Contact Number" required>
+    </p>
+
+    <p>DOB: * <input type="date" name="date" id="date" required>
+
+    </p>
+    <h2>Educational Qualifications</h2>
+    <p>Degree: *
+        <select name="degree" id="degree" required>
+        <option value="">--Select Group--</option>
+        <option value="diploma">Diploma</option>
+        <option value="btech">Btech</option>
+        <option value="mtech">Mtech</option>
+    </select>
+    <p>Engineering: *
+    <select name="engineering" id="engineering" required>
+        <option value="">--Select Branch</option>
+        <option value="CSE">CSE</option>
+        <option value="CIVIL">CIVIL</option>
+        <option value="ETC">ETC</option>
+        <option value="MECH">MECH</option>
+        <option value="EE">EE</option>
+        </select>
+    </p>
+
+        <fieldset>
+        <legend>Hobbies</legend>
+    <p><textarea name="hobbies" id="" cols="40" rows="5" placeholder="Write your hobbies" required></textarea>
+</p>
+ </fieldset>
+<h2>Address</h2>
+   <p>Address: * <textarea name="address" id="address" cols="100" rows="7" placeholder="write your address" required></textarea>
+    </p>
+
+    <p>Attch Resume: * <input type="file" name="file" id="file" required></p>
+    <input type="SUBMIT" value="SUBMIT">
+    <input type="reset" value="Reset">
+
+   </form>
+   </div>
+</body>
+</html>
